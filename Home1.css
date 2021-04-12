@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #cee7f2;
   padding: 20px 10px;
 }
 
@@ -24,14 +24,14 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #5b8f8f;
+  color: white;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #bde6ff;
+  color: black;
 }
 
 /* Float the link section to the right */
@@ -51,21 +51,24 @@
   }
 }
 
-
 body, html {
   height: 100%;
   margin: 0;
 }
 
+
 .bg {
   /* The image used */
-  background-image: url("https://i.postimg.cc/qB1pPnM0/v-3.jpg");
-
-  /* Full height */
+  background-image: url("https://i.postimg.cc/gjsnwkhh/v-v-v.png");
   height: 100%; 
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
